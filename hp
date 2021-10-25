@@ -1,0 +1,74 @@
+#include "DS.h"
+
+static void swim(Heap *p, int);
+static void sink(Heap *p, int);
+
+/*
+  Хоёр зурвасын чухлыг харьцуулах функц.
+  b нь илүү чухал бол 1, бусад үед 0-ыг буцаах функц.
+  Өөрөөр хэлбэл a < b үйлдэл юм.
+*/
+int less(const Msg *a, const Msg *b)
+{
+        // Энд жиших үйлдийг хийнэ
+}
+
+/*
+  Оруулах функц. heap зарчмаар чухлын дарааллыг баримтлан оруулна.
+  Ингэхдээ хамгийн чухал зурвас heap-ын оройд хадгалагдана.
+  x зурвасыг p-ын зааж буй heap бүтцэд оруулна.
+ */
+void insert(Heap *p, const Msg x)
+{
+        // Энд оруулах үйлдлийг хийнэ
+        p->h_arr[p->h_len]=x;
+        p->h_len++;
+}
+
+/*
+  Heap бүтцийн swim үйлдэл.
+  k нь swim үйлдлийг p-ын зааж буй heap дээр эхлүүлэх индекс.
+ */
+static void swim(Heap *p, int k)
+{
+        // Энд swim үйлдлийг хийнэ
+        int idx, i,temp;
+        struct temp;
+           
+        idx=(k-1)/2;
+        if(k==0)
+           return 0;
+        if(idx <= k) 
+           return 0;
+        for(i=0; i<p->h_len; i++) {
+                temp=k;
+                k=idx;
+                idx=temp
+
+        }
+
+
+
+}
+
+/*
+  Heap бүтцийн sink үйлдэл.
+  k нь sink үйлдлийг p-ын зааж буй heap дээр эхлүүлэх индекс.
+ */
+static void sink(Heap *p, int k)
+{
+        // Энд sink үйлдлийг хийнэ
+        while(2*k < p->h_len) {
+                
+        } 
+}
+
+/*
+  p-ын зааж буй heap бүтцээс оройн элементийг гаргаад буцаах функц.
+  Гаргасны дараа орой бүрийн хувьд heap зарчим хадгалах ёстой.
+ */
+Msg delMin(Heap *p)
+{
+        // Энд хамгийн багыг гаргах үйлдлийг хийнэ
+}
+
