@@ -55,13 +55,20 @@ main{
   float: left;
   width: 50%;
   font-family:'Montserrat', sans-serif;
-  font-size: 23px;
   text-align: center;
   color:white;
-
+  min-height: 59px!important;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 1rem;
+  transition: background-image .1s linear;
+  display: grid;
+  grid: 150px;
+  padding: 10px;
 }
 h3{
   margin-bottom:5%;
+  font-size: 1.125rem;
 }
 h4{
   margin:0% ;
