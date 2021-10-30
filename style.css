@@ -1,13 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
 body {
   background-color: rgb(41, 44, 56, 100);
+  font-family: 'Montserrat', sans-serif;
 }
-.unitelicon {
+.unitellogo{
   max-width: 64em;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: .3em;
+  
 }
-.header {
+.header { 
+  display:flex ;
+  font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 20px;
-  font-family: sans-serif;
+  font-size: 25px;
+  text-align: center;
+  padding: 14px 16px;
 }
 ul {
   list-style-type: none;
@@ -15,6 +25,11 @@ ul {
   padding: 0;
   overflow: hidden;
 }
-.MainMenu {
-  float: left;
+ .MainMenu{
+   margin-top: 0.5em;
+   margin-right: 5em;
+
+ }
+ .MainMenu:hover {
+  color:#2EE301;
 }
