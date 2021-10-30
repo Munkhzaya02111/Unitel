@@ -64,7 +64,16 @@ h4{
   margin:0% ;
 }
 footer{
-  display:flex;
   text-align: left;
   color: white;
+  padding:2em ;
+  font-family: 'Montserrat', sans-serif;
 }
+#fMenu{
+  display:inline-block;
+  margin-left: 1em;
+}
+i{
+  float: right;
+}
+ 
