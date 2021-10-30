@@ -17,8 +17,7 @@ body {
   color: white;
   font-size: 25px;
   text-align: center;
-  padding: 14px 16px;
-}
+  padding: 14px 16px;}
 ul {
   list-style-type: none;
   margin: 0;
@@ -27,7 +26,7 @@ ul {
 }
  .MainMenu{
    margin-top: 0.5em;
-   margin-right: 5em;
+   margin-right: 3em;
 
  }
  .MainMenu:hover {
@@ -44,4 +43,28 @@ button{
 }
 hr{
   border:0.01rem solid #2EE301 ;
+}
+main{
+  display:flex;
+  margin-top: 5em;
+}
+.NemeltMenu{
+  float: left;
+  width: 50%;
+  font-family:'Montserrat', sans-serif;
+  font-size: 23px;
+  text-align: center;
+  color:white;
+
+}
+h3{
+  margin-bottom:5%;
+}
+h4{
+  margin:0% ;
+}
+footer{
+  display:flex;
+  text-align: left;
+  color: white;
 }
