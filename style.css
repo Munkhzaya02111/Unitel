@@ -33,3 +33,15 @@ ul {
  .MainMenu:hover {
   color:#2EE301;
 }
+button{
+  border-radius: 0.3em;
+  padding: 0.1em 1em;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  background-color:#2EE301;
+}
+hr{
+  border:0.01rem solid #2EE301 ;
+}
