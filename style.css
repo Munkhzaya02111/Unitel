@@ -16,7 +16,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 20px;
-  font style: Medium;
+  font-style: medium;
   text-align: center;
   padding: 14px 16px;
   spacing: -1.5%;
@@ -55,9 +55,11 @@ main{
   float: left;
   width: 50%;
   font-family:'Montserrat', sans-serif;
+  justify-content: center;
   text-align: center;
   color:white;
   min-height: 59px!important;
+  width: 8em;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-bottom: 1rem;
@@ -87,11 +89,14 @@ i{
   float: right;
 }
 .bigPic{
-  height: 620px;
+height: 620px;
 width: 819px;
 left: 574px;
 top: 237px;
 border-radius: 0px;
 
 }
+ .zuragMenu{
+   height: 5em;
+ }
  
