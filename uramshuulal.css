@@ -75,6 +75,7 @@ hr{
 }p{
     margin: 0;
     color: white;
+    width: 20em;
 }
 main{
   display:flex;
@@ -106,8 +107,9 @@ i{
     border-radius: 15%;
 
 }
-.medeelel li img{
+.medeelel li {
     width: 20em;
     height: 20em;
+    border-radius: 10%;
 }
  
