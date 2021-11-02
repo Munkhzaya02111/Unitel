@@ -31,7 +31,11 @@ body{
     font: 500 1rem 'Quicksand', sans-serif;
 }
 
-.form--hidden{
+/* .form--hidden{
+    display: none;
+} */
+
+.form2--hidden{
     display: none;
 }
 
