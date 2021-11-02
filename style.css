@@ -16,10 +16,11 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 20px;
-  font style: Medium;
+  font-style: medium;
   text-align: center;
   padding: 14px 16px;
   spacing: -1.5%;
+ 
 }
 ul {
   list-style-type: none;
@@ -30,11 +31,35 @@ ul {
  .MainMenu{
    margin-top: 0.5em;
    margin-right: 3em;
-
  }
  .MainMenu:hover {
   color:#2EE301;
 }
+ #hoverMenu{
+   display: inline-block;
+ }
+ .hv{
+   display: none;
+   position:absolute;
+   background-color: rgba(48, 136, 55, 0.7) ;
+   border-radius: 7%;
+ }
+ .hv li{
+   color: white;
+   text-decoration: none;
+   display: block;
+   text-align: left;
+
+ }
+ .hv li:hover{
+   background-color: #f1f1f1;
+   color:#2EE301;
+
+ }
+ #hoverMenu:hover .hv{
+   display: block;
+ }
+ 
 button{
   border-radius: 0.3em;
   padding: 0.1em 1em;
@@ -55,9 +80,11 @@ main{
   float: left;
   width: 50%;
   font-family:'Montserrat', sans-serif;
+  justify-content: center;
   text-align: center;
   color:white;
   min-height: 59px!important;
+  width: 30%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-bottom: 1rem;
@@ -87,11 +114,15 @@ i{
   float: right;
 }
 .bigPic{
-  height: 620px;
+height: 620px;
 width: 819px;
 left: 574px;
 top: 237px;
 border-radius: 0px;
 
 }
+ .zuragMenu{
+   height: 5em;
+ }
+ 
  
