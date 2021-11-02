@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="./src/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form class="form form--hidden" id="login">
+            <h1 class="form__title">НЭВТРЭХ</h1>
+            <div class="form__input-group">
+                <input type="number" class="form__input" autofocus placeholder="Утасны дугаар">
+            </div>
+            <form> <div class="form__input-radio1">
+                <input type="radio" id="otpass" name="password" value="1kod"/> Нэг удаагын код    
+                <br>  
+                <a class="from__link" href="./" id="Passlogin"><input type="radio" id="password" name="password" value="2kod"/> Нууц үг </a><br/>
+                <button class="form__button" type="submit">ҮРГЭЛЖЛҮҮЛЭХ</button></div>   
+                </form> <br>
+            
+        </form>
+
+        <form class="form" id="Passlogin">
+            <h1 class="form__title">НЭВТРЭХ</h1>
+            <div class="form__input-group">
+                <input type="number" class="form__input" autofocus placeholder="Утасны дугаар">
+            </div>
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus placeholder="Нууц үг">
+            </div>
+            <p class="form__text">
+                <a class="from__link" href="./" id="link">Нууц үгээ мартсан уу?</a>
+            </p>
+            <form> <div class="form__input-radio1">
+                <a class="from__link" href="./" id="login"><input type="radio" id="password" name="password" value="1kod"/> Нэг удаагын код</a>    
+                <br>  
+                <input type="radio" id="password" name="password" value="2kod"/> Нууц үг <br/><br>
+                <button class="form__button" type="submit">ҮРГЭЛЖЛҮҮЛЭХ</button></br><br>
+                <button class="form__button1" type="submit">БҮРТГҮҮЛЭХ</button><br></div>   
+                </form> <br>
+            
+        </form>
+    </div>
+
+    <script src=".src/main.js"></script>
+</body>
+</html>
