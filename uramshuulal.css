@@ -41,7 +41,7 @@ ul {
  .hv{
    display: none;
    position:absolute;
-   background-color: rgba(96, 235, 3, 0.986);
+   background-color:  rgba(48, 136, 55, 0.7) ;
    border-radius: 7%;
  }
  .hv li{
@@ -107,6 +107,7 @@ i{
 
 }
 .medeelel li img{
-    width: 30em;
+    width: 20em;
+    height: 20em;
 }
  
