@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body {
+  background-color: rgb(41, 44, 56, 100);
+  font-family: 'Montserrat', sans-serif;
+}
+.unitellogo{
+  max-width: 60em;
+  margin-left: 1em;
+  margin-right: 3.5em;
+  margin-top: .3em;
+  
+}
+.header { 
+  display:flex ;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+  font-style: medium;
+  text-align: center;
+  padding: 14px 16px;
+  spacing: -1.5%;
+ 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ .MainMenu{
+   margin-top: 0.5em;
+   margin-right: 3em;
+ }
+ .MainMenu:hover {
+  color:#2EE301;
+}
+ #hoverMenu{
+   display: inline-block;
+ }
+ .hv{
+   display: none;
+   position:absolute;
+   background-color:  rgba(48, 136, 55, 0.7) ;
+   border-radius: 7%;
+ }
+ .hv li{
+   color: white;
+   text-decoration: none;
+   display: block;
+   text-align: left;
+
+ }
+ .hv li:hover{
+   background-color: #f1f1f1;
+   color:#2EE301;
+
+ }
+ #hoverMenu:hover .hv{
+   display: block;
+ }
+ 
+button{
+  border-radius: 0.3em;
+  padding: 0.1em 1em;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background-color:#2EE301;
+}
+hr{
+  border:0.01rem solid #2EE301 ;
+  margin: 0;
+}p{
+    margin: 0;
+    color: white;
+    width: 20em;
+}
+main{
+  display:flex;
+  margin-top: 5em;
+}
+div{
+    background-color: #1A1D29;
+    height:40px;
+}
+footer{
+  text-align: left;
+  color: white;
+  padding:2em ;
+  font-family: 'Montserrat', sans-serif;
+}
+#fMenu{
+  display:inline-block;
+  margin-left: 1em;
+}
+i{
+  float: right;
+}
+.medeelel{
+    display: block;
+}
+.medeelel li{
+    float: left;
+    width: 33.3%;
+    border-color: black;
+
+}
+.medeelel li img{
+    width: 20em;
+    height: 15em;
+    border-radius: 10%;
+}
+ 
