@@ -76,6 +76,9 @@ main{
   display:flex;
   margin-top: 5em;
 }
+.MainMenu a{
+  text-decoration:none;
+}
 .NemeltMenu{
   float: left;
   width: 50%;
