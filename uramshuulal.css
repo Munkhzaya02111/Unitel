@@ -1,26 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 
 body {
   background-color: rgb(41, 44, 56, 100);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-.unitellogo{
+.unitellogo {
   max-width: 60em;
   margin-left: 1em;
   margin-right: 3.5em;
-  margin-top: .3em;
-  
+  margin-top: 0.3em;
 }
-.header { 
-  display:flex ;
-  font-family: 'Montserrat', sans-serif;
+.header {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
   color: white;
   font-size: 20px;
   font-style: medium;
   text-align: center;
   padding: 14px 16px;
   spacing: -1.5%;
- 
 }
 ul {
   list-style-type: none;
@@ -28,88 +26,91 @@ ul {
   padding: 0;
   overflow: hidden;
 }
- .MainMenu{
-   margin-top: 0.5em;
-   margin-right: 3em;
- }
- .MainMenu:hover {
-  color:#2EE301;
+.MainMenu {
+  margin-top: 0.5em;
+  margin-right: 3em;
 }
- #hoverMenu{
-   display: inline-block;
- }
- .hv{
-   display: none;
-   position:absolute;
-   background-color:  rgba(48, 136, 55, 0.7) ;
-   border-radius: 7%;
- }
- .hv li{
-   color: white;
-   text-decoration: none;
-   display: block;
-   text-align: left;
+.MainMenu:hover {
+  color: #2ee301;
+}
+#hoverMenu {
+  display: inline-block;
+}
+.hv {
+  display: none;
+  position: absolute;
+  background-color: rgba(48, 136, 55, 0.7);
+  border-radius: 7%;
+}
+.hv li {
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.hv li:hover {
+  background-color: #f1f1f1;
+  color: #2ee301;
+}
+#hoverMenu:hover .hv {
+  display: block;
+}
 
- }
- .hv li:hover{
-   background-color: #f1f1f1;
-   color:#2EE301;
-
- }
- #hoverMenu:hover .hv{
-   display: block;
- }
- 
-button{
+button {
   border-radius: 0.3em;
   padding: 0.1em 1em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: white;
   font-size: 20px;
   text-align: center;
-  background-color:#2EE301;
+  background-color: #2ee301;
 }
-hr{
-  border:0.01rem solid #2EE301 ;
+hr {
+  border: 0.01rem solid #2ee301;
   margin: 0;
-}p{
-    margin: 0;
-    color: white;
-    width: 20em;
 }
-main{
-  display:flex;
+p {
+  margin: 0;
+  color: white;
+  width: 20em;
+}
+main {
+  display: flex;
   margin-top: 5em;
 }
-div{
-    background-color: #1A1D29;
-    height:40px;
+div {
+  background-color: #1a1d29;
+  height: 40px;
 }
-footer{
+footer {
   text-align: left;
   color: white;
-  padding:2em ;
-  font-family: 'Montserrat', sans-serif;
+  padding: 2em;
+  font-family: "Montserrat", sans-serif;
 }
-#fMenu{
-  display:inline-block;
+#fMenu {
+  display: inline-block;
   margin-left: 1em;
 }
-i{
+i {
   float: right;
 }
-.medeelel{
-    display: block;
+.medeelel {
+  display: block;
+  margin-left: 4em;
+  margin-right: 4em;
 }
-.medeelel li{
-    float: left;
-    width: 33.3%;
-    border-color: black;
-
+.medeelel li {
+  float: left;
+  width: 33.3%;
+  border-color: black;
 }
-.medeelel li img{
-    width: 20em;
-    height: 15em;
-    border-radius: 10%;
+.medeelel li img {
+  width: 20em;
+  height: 15em;
+  border-radius: 10%;
 }
- 
+.MainMenu a {
+  text-decoration: none;
+  color: white;
+}
