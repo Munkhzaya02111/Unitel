@@ -71,6 +71,8 @@ body{
 .form__input-radio1{
     margin-bottom: 0.9375rem!important;
     box-sizing: inherit;
+    float: left;
+    width: 50%;
 }
 
 .form_input:focus{
