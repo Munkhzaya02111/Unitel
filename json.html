@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main id="main"></main>
+    <script src="module.js" type="module"></script>
+    <script type="module">
+      import promotion from "./modules/module.js";
+
+      //towchlol
+      const gebi = (id) => document.getElementById(id);
+      //obj uusgej bna
+      const uramshuulal = new promotion(
+        "https://api.jsonbin.io/b/61891aeb4a56fb3dee0b4918/latest"
+      );
+      //uramshuullaas download hiiged main ruu hiih
+      uramshuulal.Download("main");
+      //60 sek tutamd main ruu tatah
+      setInterval(() => uramshuulal.Download("main"), 60000);
+      setInterval(() => uramshuulal.Upload(), 15000);
+    </script>
+  </body>
+</html>

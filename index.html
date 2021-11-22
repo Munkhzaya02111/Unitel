@@ -1,12 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Монголын үүрэн холбооны оператор, Mongolian telecommunication group"
+    />
+    <meta
+      name="keywords"
+      content="Юнител,Юнитэл,Unitel,Түрүүлж алхана,Дата,3G,
+    4G,LTE,харилцаа холбоо,Роуминг,Roaming,ICT,Digital Provider,Mongolian broadband,
+    Mongolian telco,Mongolian mobile operator, Mongolian broadband"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UNITEL</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
-      <nav>
+      <nav id="myTopnav">
         <ul class="header">
           <li>
             <a>
@@ -32,7 +46,7 @@
                 <li>Нэмэлт үйлчилгээ</li>
               </ul>
           </li>
-          <li class="MainMenu" >Бүтээгдэхүүн</li>
+          <li class="MainMenu" ><a>Бүтээгдэхүүн</a></li>
           <li class="MainMenu"><a href="uramshuulal.html">Урамшуулал</a></li>
           <li class="MainMenu" id="hoverMenu"> 
             <a class="dropbtn">Танд тусалъя</a> 
@@ -44,6 +58,9 @@
                 <li>Хайлтын хэсэг</li>
               </ul>
           </li>
+          <li class="MainMenu"> <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a></li>
           <li class="MainMenu"><button><a href="./login.html"><b>Хэрэглэгч</b></a></button></li>
       </nav>
     </a>
@@ -85,7 +102,7 @@
       <nav >
           <div class="NemeltMenu">
             <img class="zuragMenu"
-              src="data.png" 
+              src="images/data.png" 
               alt="icons"
             />
             <h3>ДАТА</h3>
@@ -93,7 +110,7 @@
           </div>
           <div class="NemeltMenu">
             <img class="zuragMenu"
-              src="tulbur.png"
+              src="images/tulbur.png"
               alt="icons"
             />
             <h3>ТӨЛБӨР</h3>
@@ -101,7 +118,7 @@
           </div>
           <div class="NemeltMenu">
             <img class="zuragMenu"
-              src="negj.png"
+              src="images/negj.png"
               alt="icons"
             />
             <h3>НЭГЖ</h3>
@@ -109,7 +126,7 @@
           </div>
           <div class="NemeltMenu">
             <img class="zuragMenu"
-              src="dugaar.png"
+              src="images/dugaar.png"
               alt="icons"
             />
             <h3>ДУГААР</h3>
@@ -117,7 +134,7 @@
           </div>
           <div class="NemeltMenu">
             <img class="zuragMenu"
-              src="sim.png"
+              src="images/sim.png"
               alt="icons"
             />
             <h3>СИМ</h3>
@@ -125,7 +142,7 @@
           </div>
           <div class="NemeltMenu">
               <img class="zuragMenu"
-                src="rouming.png"
+                src="images/rouming.png"
                 alt="icons"
               />
               <h3>РОУМИНГ</h3>
@@ -147,5 +164,15 @@
       </ul>
       <i>© 2006-2021</i>
     </footer>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "MainMenu") {
+          x.className += " responsive";
+        } else {
+          x.className = "MainMenu";
+        }
+      }
+      </script>
   </body>
 </html>
