@@ -1,178 +1,142 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="description"
-      content="Монголын үүрэн холбооны оператор, Mongolian telecommunication group"
-    />
-    <meta
-      name="keywords"
-      content="Юнител,Юнитэл,Unitel,Түрүүлж алхана,Дата,3G,
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Монголын үүрэн холбооны оператор, Mongolian telecommunication group" />
+  <meta name="keywords" content="Юнител,Юнитэл,Unitel,Түрүүлж алхана,Дата,3G,
     4G,LTE,харилцаа холбоо,Роуминг,Roaming,ICT,Digital Provider,Mongolian broadband,
-    Mongolian telco,Mongolian mobile operator, Mongolian broadband"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>UNITEL</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <header>
-      <nav id="myTopnav">
-        <ul class="header">
-          <li>
-            <a>
-            <img
-              class="unitellogo"
-              src="https://www.unitel.mn/img/logo.svg"
-              width="150"
-              height="50"
-              alt="logo"
-            />
+    Mongolian telco,Mongolian mobile operator, Mongolian broadband" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UNITEL</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="components/uni-icons.js" type="module"></script>
+</head>
+
+<body>
+  <!-- <div id="toolButtons">
+    <script type="module">
+      import UniIcons from "./components/uni-icons.js";
+      let toolButtons = [
+        { image: { src: "images/data.png", alt: "data" }, title: "Title1", desc: "desc1" },
+        { image: { src: "images/data.png", alt: "data" }, title: "Title", desc: "desc4" },
+        { image: { src: "images/data.png", alt: "data" }, title: "Title", desc: "desc5" },
+        { image: { src: "images/data.png", alt: "data" }, title: "Title", desc: "desc6" },
+        { image: { src: "images/data.png", alt: "data" }, title: "Title2", desc: "desc3" },
+        { image: { src: "images/data.png", alt: "data" }, title: "Title3", desc: "desc3" },
+      ]
+
+      toolButtons.map(btn => {
+        let uni = new UniIcons();
+        uni.image = btn.image.src;
+        uni.image = btn.image.alt;
+        uni.title = btn.title;
+        uni.desc = btn.desc;
+      }
+      );
+      document.getElementById("toolButtons").appendChild(uni);
+    </script>
+  </div> -->
+  <header>
+    <nav id="myTopnav">
+      <ul class="header">
+        <li>
+          <a>
+            <img class="unitellogo" src="https://www.unitel.mn/img/logo.svg" width="150" height="50" alt="logo" />
           </a>
-          </li>
-          <li class="MainMenu" id="hoverMenu">
-            <a class="dropbtn">Үйлчилгээ</a>
-              <ul class="hv">
-                <li>Дараа төлбөрт</li>
-                <li>Хосолсон төлбөрт</li>
-                <li>Урьдчилсан төлбөрт</li>
-                <li>U хөтөлбөр</li>
-                <li>Дата үйлчилгээ</li>
-                <li>Гэр интернет</li>
-                <li>ОУ-ын үйлчилгээ</li>
-                <li>Нэмэлт үйлчилгээ</li>
-              </ul>
-          </li>
-          <li class="MainMenu" ><a>Бүтээгдэхүүн</a></li>
-          <li class="MainMenu"><a href="uramshuulal.html">Урамшуулал</a></li>
-          <li class="MainMenu" id="hoverMenu"> 
-            <a class="dropbtn">Танд тусалъя</a> 
-              <ul class="hv">
-                <li>Холбоо барих</li>
-                <li>Байршил</li>
-                <li>Асуулт хариулт</li>
-                <li>Аппликейшн</li>
-                <li>Хайлтын хэсэг</li>
-              </ul>
-          </li>
-          <li class="MainMenu"> <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        </li>
+        <li class="MainMenu" id="hoverMenu">
+          <a class="dropbtn">Үйлчилгээ</a>
+          <ul class="hv">
+            <li>Дараа төлбөрт</li>
+            <li>Хосолсон төлбөрт</li>
+            <li>Урьдчилсан төлбөрт</li>
+            <li>U хөтөлбөр</li>
+            <li>Дата үйлчилгээ</li>
+            <li>Гэр интернет</li>
+            <li>ОУ-ын үйлчилгээ</li>
+            <li>Нэмэлт үйлчилгээ</li>
+          </ul>
+        </li>
+        <li class="MainMenu"><a>Бүтээгдэхүүн</a></li>
+        <li class="MainMenu"><a href="uramshuulal.html">Урамшуулал</a></li>
+        <li class="MainMenu" id="hoverMenu">
+          <a class="dropbtn">Танд тусалъя</a>
+          <ul class="hv">
+            <li>Холбоо барих</li>
+            <li>Байршил</li>
+            <li>Асуулт хариулт</li>
+            <li>Аппликейшн</li>
+            <li>Хайлтын хэсэг</li>
+          </ul>
+        </li>
+        <li class="MainMenu"> <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
           </a></li>
-          <li class="MainMenu"><button><a href="./login.html"><b>Хэрэглэгч</b></a></button></li>
-      </nav>
+        <li class="MainMenu"><button><a href="./login.html"><b>Хэрэглэгч</b></a></button></li>
+    </nav>
     </a>
-    </header>
-    <hr>
-    <main>
-      <aside class="AsideMenu">
-        <ul>
-          <li>
-            <a href="https://www.facebook.com/unitelofficial/"
-              ><img
-                src="https://img.icons8.com/fluency/48/000000/facebook-new.png"
-                alt="fbIcon"
-            /></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/unitelofficial"
-              ><img
-                src="https://img.icons8.com/color/48/000000/twitter.png"
-                alt="twIcon"
-            /></a>
-          </li>
-          <li>
-            <a href="https://youtube.com/user/unitelofficial"
-              ><img
-                src="https://img.icons8.com/color/48/000000/youtube-play.png"
-                alt="ytIcon"
-            /></a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/unitelofficial/"
-              ><img
-                src="https://img.icons8.com/fluency/48/000000/facebook-messenger--v2.png"
-                alt="msIcon"
-            /></a>
-          </li>
-        </ul>
-      </aside>
-      <nav >
-          <div class="NemeltMenu">
-            <img class="zuragMenu"
-              src="images/data.png" 
-              alt="icons"
-            />
-            <h3>ДАТА</h3>
-            <p>Багц авах</p>
-          </div>
-          <div class="NemeltMenu">
-            <img class="zuragMenu"
-              src="images/tulbur.png"
-              alt="icons"
-            />
-            <h3>ТӨЛБӨР</h3>
-            <p>Шалгах, төлөх</p>
-          </div>
-          <div class="NemeltMenu">
-            <img class="zuragMenu"
-              src="images/negj.png"
-              alt="icons"
-            />
-            <h3>НЭГЖ</h3>
-            <p>Авах</p>
-          </div>
-          <div class="NemeltMenu">
-            <img class="zuragMenu"
-              src="images/dugaar.png"
-              alt="icons"
-            />
-            <h3>ДУГААР</h3>
-            <p>Захиалах, авах</p>
-          </div>
-          <div class="NemeltMenu">
-            <img class="zuragMenu"
-              src="images/sim.png"
-              alt="icons"
-            />
-            <h3>СИМ</h3>
-            <p>Идэвхжүүлэх</p>
-          </div>
-          <div class="NemeltMenu">
-              <img class="zuragMenu"
-                src="images/rouming.png"
-                alt="icons"
-              />
-              <h3>РОУМИНГ</h3>
-              <p>Нээх, хаах</p>
-          </div>
-      </nav>
-      <aside>
-        <img class="bigPic"
-          src="https://www.unitel.mn/img/uploads/3ef093f9fe767b47f462be7fe7aba604.jpg"
-          alt="pic"
-        />
-      </aside>
-    </main>
-    <footer>
+  </header>
+  <hr>
+  <main>
+    <aside class="AsideMenu">
       <ul>
-        <li id="fMenu">Бидний тухай   |</li>
-        <li id="fMenu">Хүний нөөц   |</li>
-        <li id="fMenu">Хэвлэл мэдээлэл</li>
+        <li>
+          <a href="https://www.facebook.com/unitelofficial/"><img
+              src="https://img.icons8.com/fluency/48/000000/facebook-new.png" alt="fbIcon" /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/unitelofficial"><img src="https://img.icons8.com/color/48/000000/twitter.png"
+              alt="twIcon" /></a>
+        </li>
+        <li>
+          <a href="https://youtube.com/user/unitelofficial"><img
+              src="https://img.icons8.com/color/48/000000/youtube-play.png" alt="ytIcon" /></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/unitelofficial/"><img
+              src="https://img.icons8.com/fluency/48/000000/facebook-messenger--v2.png" alt="msIcon" /></a>
+        </li>
       </ul>
-      <i>© 2006-2021</i>
-    </footer>
-    <script>
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "MainMenu") {
-          x.className += " responsive";
-        } else {
-          x.className = "MainMenu";
-        }
+    </aside>
+    <nav class="toolBtn">
+      <div class="NemeltMenu">
+        <uni-icons src="./images/dataButton.png" alt="data" title="ДАТА" desc="Багц авах"></uni-icons>
+        <uni-icons src="images/tulburButton.png" alt="tulbur" title="ТӨЛБӨР" desc="Шалгах, төлөх"></uni-icons>
+      </div>
+      <div class="NemeltMenu">
+        <uni-icons src="images/dugaar.png" alt="shinedug" title="ШИНЭ ДУГААР" desc="Захиалах, авах"></uni-icons>
+        <uni-icons src="images/negjButton.png" alt="dugaar" title="НЭГЖ" desc="Авах"></uni-icons>
+      </div>
+      <div class="NemeltMenu">
+        <uni-icons src="images/simButton.png" alt="sim" title="СИМ КАРТ" desc="Идэвхжүүлэх"></uni-icons>
+        <uni-icons src="images/roumingButton.png" alt="rouming" title="РОУМИНГ" desc="Нээх, хаах"></uni-icons>
+      </div>
+    </nav>
+    <aside>
+      <img class="bigPic" src="https://www.unitel.mn/img/uploads/3ef093f9fe767b47f462be7fe7aba604.jpg" alt="pic" />
+    </aside>
+  </main>
+  <footer>
+    <ul>
+      <li id="fMenu">Бидний тухай |</li>
+      <li id="fMenu">Хүний нөөц |</li>
+      <li id="fMenu">Хэвлэл мэдээлэл</li>
+    </ul>
+    <i>© 2006-2021</i>
+  </footer>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "MainMenu") {
+        x.className += " responsive";
+      } else {
+        x.className = "MainMenu";
       }
-      </script>
-  </body>
+    }
+  </script>
+</body>
+
 </html>

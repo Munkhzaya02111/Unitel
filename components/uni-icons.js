@@ -1,11 +1,21 @@
 // <uni-icon></uni-icon>
 let html = String.raw;
-class UniIcons extends HTMLElement {
+export default class UniIcons extends HTMLElement {
   constructor() {
     super(); // always call super() first in the ctor.
-    this.innerHTML = html`<img [src=${this.getAttribute("src")} alt="icons"]>
+    this.src = this.getAttribute("src") || " ";
+    this.alt = this.getAttribute("alt") || " ";
+    this.title = this.getAttribute("title") || " ";
+    this.desc = this.getAttribute("desc") || " ";
   }
-  connectedCallback() {}
+
+  connectedCallback() {
+    this.innerHTML = html`<div class="menu">
+      <img src=${this.src} alt=${this.alt} />
+      <h3>${this.title}</h3>
+      <p>${this.desc}</p>
+    </div> `;
+  }
   disconnectedCallback() {}
   attributeChangedCallback(attrName, oldVal, newVal) {}
 }
