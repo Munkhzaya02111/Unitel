@@ -142,3 +142,7 @@ body {
   margin-right: 3.5em;
   margin-top: 0.3em;
 }
+
+.float{
+  float: right;
+}
