@@ -26,6 +26,10 @@ ul {
   padding: 0;
   overflow: hidden;
 }
+.MainMenu a {
+  text-decoration: none;
+  color: white;
+}
 .MainMenu {
   margin-top: 0.5em;
   margin-right: 3em;
@@ -103,14 +107,18 @@ i {
 .medeelel li {
   float: left;
   width: 33.3%;
-  border-color: black;
+  list-style-type: none;
 }
 .medeelel li img {
-  width: 20em;
-  height: 15em;
+  width: 19em;
+  height: 14em;
   border-radius: 10%;
 }
-.MainMenu a {
-  text-decoration: none;
+h1 {
+  color: #2ee301;
+  font-style: bold;
+  font-size: small;
+}
+.desc {
   color: white;
 }
