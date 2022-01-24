@@ -59,7 +59,10 @@ ul {
 #hoverMenu:hover .hv {
   display: block;
 }
-
+.line {
+  height: 40px;
+  color: wheat;
+}
 button {
   border-radius: 0.3em;
   padding: 0.1em 1em;
@@ -82,10 +85,6 @@ main {
   display: flex;
   margin-top: 5em;
 }
-div {
-  background-color: #1a1d29;
-  height: 40px;
-}
 footer {
   text-align: left;
   color: white;
@@ -99,26 +98,39 @@ footer {
 i {
   float: right;
 }
-.medeelel {
-  display: block;
-  margin-left: 4em;
+.medeelel,
+.medeelel li {
   margin-right: 4em;
+  /* padding-right: 5em;
+  padding-left: 5em; */
+  margin-bottom: 4em;
+}
+.medeelel {
+  background-color: white;
+  border-radius: 10%;
+  width: 19em;
+  height: 20em;
+  margin-left: 4em;
+}
+.medeelel {
+  /*display: block;*/
+  display: inline-block;
 }
 .medeelel li {
-  float: left;
+  /* float: left; */
   width: 33.3%;
   list-style-type: none;
 }
-.medeelel li img {
+.zurag {
   width: 19em;
   height: 14em;
   border-radius: 10%;
 }
 h1 {
-  color: #2ee301;
+  color: black;
   font-style: bold;
-  font-size: small;
+  font-size: 18px;
 }
 .desc {
-  color: white;
+  color: black;
 }
