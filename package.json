@@ -1,11 +1,26 @@
 {
-  "name": "unitel",
+  "name": "index",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "start": "func start",
     "test": "echo \"No tests yet...\""
   },
-  "dependencies": {},
+  "main": "mainM.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Munkhzaya02111/Unitel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Munkhzaya02111/Unitel/issues"
+  },
+  "homepage": "https://github.com/Munkhzaya02111/Unitel#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "swagger-ui-express": "^4.3.0"
+  },
   "devDependencies": {}
 }

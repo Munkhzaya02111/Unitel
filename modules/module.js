@@ -12,7 +12,7 @@ export let uramshuulal = {
     return (returnHTML += html`
       <div class="medeelel">
         <li>
-          <img class="zurag" src="${this.img}" alt="${this.alt}" />
+          <img class="zurag" src=${this.img} alt="${this.alt}" />
           <h1 class="title">${this.title}</h1>
           <p class="desc">${this.description}</p>
         </li>

@@ -91,10 +91,11 @@ main {
   margin-bottom: 1rem;
   transition: background-image 0.1s linear;
   display: grid;
-  grid: 150px;
+  grid: 140px;
   padding: 10px;
   margin-left: 1em;
 }
+
 .NemeltMenu h3 {
   margin-top: 0 !important;
   padding-top: 20px;
@@ -115,13 +116,19 @@ footer {
 #fMenu {
   display: inline-block;
   margin-left: 1em;
+  text-decoration: none;
+  color: white;
+}
+#fMenu a {
+  text-decoration: none;
+  color: white;
 }
 i {
   float: right;
 }
 .bigPic {
   height: 620px;
-  width: 819px;
+  width: 709px;
   left: 574px;
   top: 237px;
   border-radius: 0px;
@@ -141,7 +148,6 @@ i {
 .MainMenu .icon {
   display: none;
 }
-
 @media screen and (max-width: 600px) {
   body {
     flex-direction: column;
