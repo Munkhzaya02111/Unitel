@@ -49,7 +49,7 @@ ul {
   text-align: left;
 }
 .hv li:hover {
-  background-color: #f1f1f1;
+  background-color: rgb(41, 44, 56, 100);
   color: #2ee301;
 }
 #hoverMenu:hover .hv {
@@ -127,12 +127,12 @@ i {
   float: right;
 }
 .bigPic {
-  height: 620px;
+  height: 600px;
   width: 709px;
-  left: 574px;
-  top: 237px;
+  /* left: 574px;
+  top: 237px; */
   border-radius: 0px;
-  margin-right: 2em;
+  margin-right: 1em;
 }
 .zuragMenu {
   height: 5em;
@@ -149,63 +149,6 @@ i {
   display: none;
 }
 @media screen and (max-width: 600px) {
-  body {
-    flex-direction: column;
-  }
-  .bigPic {
-    display: none;
-  }
-  ul {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    top: 80px;
-    left: 0;
-    text-align: center;
-  }
-  nav ul li {
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-  }
-  nav ul li a {
-    font-size: 18px;
-  }
-  a:hover,
-  a.active {
-    background: none;
-    color: #2ee301;
-  }
-  .AsideMenu {
-    display: none;
-  }
-  .unitellogo {
-    display: none;
-  }
-  hr {
-    display: none;
-  }
-  .MainMenu.responsive {
-    position: relative;
-  }
-  .MainMenu.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .MainMenu a:not(:first-child) {
-    display: none;
-  }
-  .MainMenu a.icon {
-    float: right;
-    display: block;
-  }
-  .MainMenu.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-
   footer {
     font-size: 12px;
     float: left;
