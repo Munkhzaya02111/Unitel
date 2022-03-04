@@ -11,30 +11,26 @@
 </head>
 
 <body>
-    <div class="container" style="background-image: url('./images/login_background.png');">
-        <div>
-            <form class="form form--hidden" id="login" action="./pass_login.html">
-                <h1 class="form__title">НЭВТРЭХ</h1>
-                <div class="form__input-group">
-                    <input type="number" class="form__input" autofocus placeholder="Утасны дугаар">
-                </div>
-                <div> 
-                    <span class="form__input-radio1">
-                        <button class="form__button" type="submit">ҮРГЭЛЖЛҮҮЛЭХ</button></br><br>
-                        <button class="form__button1" type="submit">Нууц үгээр нэвтрэх</button></br><br>
-                    </span>
-                </div> <br>
-            </form>
+    <div style="background-image: url('./images/login_background.png');">
+        <div class="container" style="background-image: url('./images/login_background.png');">
+            <div>
+                <form class="form form--hidden" id="login" action="./pass_login.html">
+                    <h1 class="form__title">НЭВТРЭХ</h1>
+                    <div class="form__input-group">
+                        <input type="number" class="form__input" autofocus placeholder="Утасны дугаар">
+                    </div>
+                    <div> 
+                        <span class="form__input-radio1">
+                            <button class="form__button" type="submit">ҮРГЭЛЖЛҮҮЛЭХ</button></br><br>
+                            <button class="form__button1" type="submit">Нууц үгээр нэвтрэх</button></br><br>
+                        </span>
+                    </div> <br>
+                </form>
+            </div>
         </div>
     </div>
 
     <script src=".src/main.js"></script>
-    <script>
-        $("#password").on('check', function(){
-            passloginForm.classList.remove("form__input-radio1");
-            loginForm.classList.add("form__input-radio1");
-        })
-    </script>
 </body>
 
 </html>

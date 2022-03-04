@@ -141,3 +141,22 @@ body{
     border: #2ee301;
     border-radius: 1px;
 }
+
+.search {
+    --background: #ffffff;
+    --text-color: #414856;
+    --primary-color: #4F29F0;
+    --border-radius: 10px;
+    --width: 190px;    
+    --height: 55px;      
+    background: var(--background);
+    width: auto;
+    height: var(--height);
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--border-radius);
+    box-shadow: 0 10px 30px rgba(#414856, .05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
