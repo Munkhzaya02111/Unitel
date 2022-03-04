@@ -81,6 +81,10 @@ hr {
   border: 0.01rem solid #2ee301;
   margin: 0;
 }
+.line{
+  margin-left: 30px;
+  color: white;
+}
 p{
     color: white;
 }

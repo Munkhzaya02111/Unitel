@@ -59,10 +59,6 @@ ul {
 #hoverMenu:hover .hv {
   display: block;
 }
-.line {
-  height: 20px;
-  color: wheat;
-}
 button {
   border-radius: 0.3em;
   padding: 0.1em 1em;
@@ -76,10 +72,13 @@ hr {
   border: 0.01rem solid #2ee301;
   margin: 0;
 }
-p {
+.line{
+  margin-left: 30px;
+}
+p  {
   margin: 5px ;
   color: white;
-  width: 20em;
+  width: 18em;
 }
 main {
   display: flex;
@@ -129,7 +128,7 @@ h1 {
   color: white;
   font-style: bold;
   font-size: 15px;
-  text-align: start;
+  /* text-align: start; */
 }
 .desc {
   color: white;
@@ -137,4 +136,7 @@ h1 {
 #fMenu a {
   text-decoration: none;
   color: white;
+}
+div .contactBox{
+  color: #2ee301;
 }
