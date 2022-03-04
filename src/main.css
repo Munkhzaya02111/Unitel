@@ -136,3 +136,8 @@ body{
 .form__link:hover{
     text-decoration: underline;
 }
+
+.hover{
+    border: #2ee301;
+    border-radius: 1px;
+}

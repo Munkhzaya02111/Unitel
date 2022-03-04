@@ -11,43 +11,30 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" style="background-image: url('./images/login_background.png');">
         <div>
-            <form class="form form--hidden" id="login">
+            <form class="form form--hidden" id="login" action="./pass_login.html">
                 <h1 class="form__title">НЭВТРЭХ</h1>
                 <div class="form__input-group">
-                    <input type="tel" class="form__input" autofocus placeholder="Утасны дугаар">
+                    <input type="number" class="form__input" autofocus placeholder="Утасны дугаар">
                 </div>
-                <form> <span class="form__input-radio1">
-                        <a input type="radio" href="./" id="otpass" name="password" value="1kod"></a> Нэг удаагийн код
-                        <span class="float"><a input type="radio" href="./" id="password" name="password" value="2kod"></a> Нууц үг<br></span><br><br>
-                        <button class="form__button" type="submit">ҮРГЭЛЖЛҮҮЛЭХ</button></span>
-                </form> <br>
-            </form>
-
-            <form class="form2 form2--hidden" id="Passlogin">
-                <h1 class="form__title">НЭВТРЭХ</h1>
-                <div class="form__input-group">
-                    <input type="tel" class="form__input" autofocus placeholder="Утасны дугаар">
-                </div>
-                <div class="form__input-group">
-                    <input type="text" class="form__input" autofocus placeholder="Нууц үг">
-                </div>
-                <p class="form__text">
-                    <a class="from__link" href="./" id="link">Нууц үгээ мартсан уу?</a>
-                </p>
-                <form> <span class="form__input-radio1">
-                        <a input type="radio" href="./" id="otpass" name="password" value="1kod"></a> Нэг удаагийн код
-                        <span class="float"><a input type="radio" href="./" id="password" name="password" value="2kod"></a> Нууц үг </span><br /><br>
+                <div> 
+                    <span class="form__input-radio1">
                         <button class="form__button" type="submit">ҮРГЭЛЖЛҮҮЛЭХ</button></br><br>
-                        <button class="form__button1" type="submit">БҮРТГҮҮЛЭХ</button><br></span>
-                </form> <br>
-
+                        <button class="form__button1" type="submit">Нууц үгээр нэвтрэх</button></br><br>
+                    </span>
+                </div> <br>
             </form>
         </div>
     </div>
 
     <script src=".src/main.js"></script>
+    <script>
+        $("#password").on('check', function(){
+            passloginForm.classList.remove("form__input-radio1");
+            loginForm.classList.add("form__input-radio1");
+        })
+    </script>
 </body>
 
 </html>
